@@ -5,7 +5,9 @@
   Plot a burndown object
 }
 \usage{\S3method{plot}{burndown}(x, col=NULL, draw.plan=TRUE, draw.regression=FALSE,
-              draw.lastupdate=FALSE, t.stop="", debug=FALSE, ...)
+              draw.lastupdate=FALSE, t.stop="",
+              mar=c(3, 3, 1, 1), mgp=c(2, 0.7, 0),
+              debug=FALSE, ...)
 }
 \arguments{
   \item{x}{A burndown object.}
@@ -17,6 +19,8 @@
   \item{draw.regression}{Set TRUE to draw a regression line of the realized effort.}   
   \item{draw.lastupdate}{Set TRUE to draw the last update (which otherwise requires a sharp eye).}   
   \item{t.stop}{Maximum time for graph (defaults to deadline if not given)}
+  \item{mar}{margin value as supplied to \code{\link{par}}.}
+  \item{mgp}{axis label placement as supplied to \code{\link{par}}.}
   \item{debug}{Set TRUE to monitor the work.}
   \item{...}{Extra things handed down.}
 }

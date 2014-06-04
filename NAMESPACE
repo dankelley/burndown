@@ -1,7 +1,4 @@
-export(
-	read.burndown,
-	plot.burndown,
-	summary.burndown
-)
+export(read.burndown, plot.burndown, summary.burndown)
 S3method(plot, burndown)
 S3method(summary, burndown)
+
