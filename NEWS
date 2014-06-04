@@ -1,0 +1,14 @@
+0.1.8:  - make plot.burndown() regression line go through initial point
+0.1.7:  - rename plot.regression argument of plot.burndown() as draw.regression
+        - add plot.regression argument draw.lastupdate
+0.1.6:  - add t.stop to plot.burndown()
+0.1.5:  - add plot.regression option to plot.burndown()
+0.1.4:  - documention done
+	    - website set up 
+0.1.3:  - read.burndown() works
+        - summary.burndown() works
+        - plot.burndown() works
+0.1.2:  - read.burndown() partly works
+        - summary.burndown() partly works
+        - plot.burndown() added, but not working
+0.1.1:  - create this package; nothing is really working yet

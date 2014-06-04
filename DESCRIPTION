@@ -1,0 +1,12 @@
+Package: burndown
+Version: 0.1-1
+Date: 2014-06-04
+Title: Burndown charts and analysis
+Author: Dan Kelley <Dan.Kelley@Dal.Ca>
+Maintainer: Dan Kelley <Dan.Kelley@Dal.Ca>
+Depends: R (>= 0.99)
+Description: Supports the creation of burndown charts
+License: GPL (>= 2)
+URL: http://myweb.dal.ca/kelley/pub/sof/burndown/index.php
+LazyLoad: yes
+
