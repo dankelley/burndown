@@ -30,11 +30,21 @@
         <h3>
 <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>The Burndown R package.</h3>
 
-<p>Sample file plot</p>
+<p>Sample use</p>
+<pre><code>
+library(burndown)
+b <- read.burndown("file.dat") # like the one given below
+plot(b)
+</code></pre>
+
+<p>Sample plot</p>
 
 <img src="burndown.png" alt="burndown figure">
 
+
 <p>Sample file input</p>
+<p>Putting the content below into a file named <code>file.dat</code> and running
+the R code given above yields the plot shown above.</p>
 
 <pre><code>
 Start, 2006-04-08T12:00
